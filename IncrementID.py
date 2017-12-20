@@ -207,7 +207,7 @@ st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
 
 # Define sender and receivers
 sender = '' #Add email address. Such as name@org.oh.us
-receivers = ['']  #Add email address
+receivers = ['']  #Add email addresses as text items separated by commas 
 # If there were no duplicates found overwrite sender and receivers 
 # This email step is unnecessary; I wanted to send an email to only myself the script ran but not send to others if nothing was accomplished
 if not communication_Action:
