@@ -14,7 +14,7 @@ import pyodbc
 print "arcpy and pyodbc loaded"
 
 # Set the Database Connection
-db = "MORPC_Geodata@MGUP.sde"
+db = "" #add the database connection file
 
 # Set the username of a person that has ArcGIS desktop installed on the computer running this script- must have the connection file listed below 
 user = ''  #enter user name as text element
